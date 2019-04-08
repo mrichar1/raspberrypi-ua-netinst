@@ -1,10 +1,36 @@
 # Changelog
 
-## raspberrypi-ua-netinst v2.1.1
+## raspberrypi-ua-netinst v2.3.0
 
+- support for version 3 model A+
+
+**Bugfixes:**
+
+- allow reinstall with new kernel versions
+- minor fixes and improvements
+
+## raspberrypi-ua-netinst v2.2.2
+
+- build improvements
+
+**Bugfixes:**
+
+- fix compatibility with version 1 model B (with 256MB RAM)
+
+## raspberrypi-ua-netinst v2.2.1
+
+- fix compatibility with onboard wireless lan on version 3 model B+ (with BCM2837B0)
+- build improvements
+
+## raspberrypi-ua-netinst v2.2.0
+
+- support for version 3 model B+ (with BCM2837B0)
 - added installer output via telnet
+- improved compatibility with RPi Compute Module 3
+- improved SD card compatibility
 - added or changed configuration variables
   - disable telnet output
+- many build improvements and fixes
 
 ## raspberrypi-ua-netinst v2.1.0
 
@@ -123,7 +149,7 @@ If you are coming from an older version, **check your configuration options** to
 - added method to set time with http
 - dynamically add packages if needed by configuration variables
 - added docs for configuration variables
-- add hardware version 2 Model B+ (with BCM2837)
+- add hardware version 2 model B+ (with BCM2837)
 
 **Bugfixes:**
 
@@ -144,7 +170,7 @@ If you are coming from an older version, **check your configuration options** to
 
 ## raspberrypi-ua-netinst v1.2.1
 
-- added compatibility for onboard wireless lan with model 3B to get used by installer and system (no ethernet needed)
+- added compatibility for onboard wireless lan on version 3 model B to get used by installer and system (no ethernet needed)
 - added more configuration variables
   - allow user to access GPIOs
   - create/add user to (system) groups
